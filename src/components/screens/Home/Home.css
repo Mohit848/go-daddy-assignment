@@ -1,0 +1,12 @@
+.home-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 32px;
+}
+.home-loader svg {
+	fill: var(--accent-color);
+}
+.home-loader {
+	margin: 160px;
+	justify-content: space-around;
+}

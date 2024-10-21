@@ -1,0 +1,6 @@
+.content-wrapper {
+	transition: background-color 0.3s ease, color 0.3s ease;
+	background-color: var(--background-color);
+	min-height: 100vh;
+	padding: 1rem;
+}
