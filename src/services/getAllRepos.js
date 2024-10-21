@@ -4,5 +4,7 @@ export const getAllRepos = async () => {
 	try {
 		const res = await axios.get(ENDPOINT_GET_ALL_REPOS);
 		return res?.data;
-	} catch (e) {}
+	} catch (e) {
+		return new Error(e);
+	}
 };
